@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstring>
 using namespace std;
 
 
@@ -40,7 +41,15 @@ void OSU();
 
 int main(int num, char* input1[])
 {
- char* temp = input1[2];
+//if(input1[2][]
+
+
+ char* temp = input1[1];
+if(strlen(temp) > 1)
+{
+OSU();
+return 0;
+}
 switch(*temp)
 {
 case 'A': A();
